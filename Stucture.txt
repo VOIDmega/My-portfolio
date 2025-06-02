@@ -1,0 +1,12 @@
+your_portfolio/
+├── app.py                 # Main Flask application
+├── config.py              # Configuration settings
+├── requirements.txt       # Python dependencies
+├── static/
+│   ├── style.css          # Custom styles (purple/blue pastel theme)
+│   └── profile.png        # Your profile graphic (replace this)
+└── templates/
+    ├── base.html          # Main layout template
+    ├── index.html         # Home page
+    ├── projects.html      # Projects showcase
+    └── timeline.html      # Blog timeline

@@ -1,0 +1,16 @@
+<!-- templates/timeline.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="section-title">My Timeline</h1>
+
+<div class="timeline">
+    {% for post in posts %}
+    <div class="timeline-post">
+        <div class="post-date">{{ post.date }}</div>
+        <h2 class="post-title">{{ post.title }}</h2>
+        <p>{{ post.content }}</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
