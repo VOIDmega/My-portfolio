@@ -1,0 +1,20 @@
+<!-- templates/projects.html -->
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="section-title">My Projects</h1>
+
+<div class="projects-grid">
+    {% for project in projects %}
+    <div class="project-card">
+        <div class="project-header">
+            <h2>{{ project.title }}</h2>
+        </div>
+        <div class="project-body">
+            <p>{{ project.description }}</p>
+            <pre><code class="language-{{ project.language }}">{{ project.code }}</code></pre>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
