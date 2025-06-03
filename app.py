@@ -12,7 +12,7 @@ profile_info = {
     "name": "Xavier Hack",
     "age": "16",
     "title": "High school student and Acountant",
-    "bio": "I Am a high school student with a passion for technology and finance, I always enjoy finding new technology.",
+    "bio": "I’m a high school student deeply passionate about both technology and accounting. I develop coding projects and analyze systems while strengthening my financial skills. Off the spreadsheet, I play point guard for my school’s basketball team—applying the same strategy, precision, and teamwork I use in tech to the game.",
     "email": "No@thankyou.com",
     "location": "ontario, Canada",
 }
